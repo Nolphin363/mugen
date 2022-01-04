@@ -1,0 +1,20 @@
+; 天の道を行く男
+[Info]
+name = "仮面ライダーカブト"        ;キャラの名前
+displayname = "MASKED RIDER KABUTO" ;表示されるキャラの名前
+versiondate = 11,22,2000    ;キャラの更新情報
+mugenversion = 11,22,2000   ;キャラが動くmugenのバージョン
+author = "qzak"             ;キャラの製作者名
+pal.defaults = 6,3,4,2      ;敵としてでるキャラのパレット
+
+; Files for the player
+[Files]
+cmd     = kabuto.cmd   ;キャラのコマンド
+cns     = kabuto.cns   ;キャラのプログラム
+st      = kabuto.cns   ;キャラのプログラム 
+stcommon = common1.cns 
+sprite  = kabuto.sff   ;キャラの絵
+anim    = kabuto.air   ;キャラの動き
+sound   = kabuto.snd   ;キャラの音
+pal1    = kabuto.act   ;キャラの色（最大１２個）
+pal2    = darkkabuto.act
