@@ -1,0 +1,21 @@
+;------------------
+[Characters]
+
+
+kfm, stages/kfm.def
+kfm, stages/kfm.def
+
+;-----------------------
+[ExtraStages]
+
+
+stages/kfm.def
+stages/stage0.def
+
+;----------------
+[Options]
+
+arcade.maxmatches = 6,1,1,0,0,0,0,0,0,0
+
+
+team.maxmatches = 4,1,1,0,0,0,0,0,0,0
